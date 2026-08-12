@@ -1,0 +1,20 @@
+body{
+    background-color:hotpink;
+}
+.intro{
+    display: inline;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.about{
+    display:inline;
+    margin-top: 100px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+}
+.list{
+    margin-top:150px;
+}
