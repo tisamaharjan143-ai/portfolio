@@ -1,0 +1,157 @@
+body{
+    background-color:plum;
+    margin:0;
+}
+
+
+
+/*index page*/
+.welc{
+    text-shadow: 4px 4px 8px darkmagenta;
+}
+.intro{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 60px;
+    gap:50px;
+    
+}
+
+nav{
+    gap:20px;
+    padding:20px;
+    display: block;
+}
+
+.a{
+    display:block;
+    font-size:medium;
+}
+
+
+nav a:hover {
+    color:darkred;
+}
+
+.title{
+    display:block;
+    text-align: center;
+}
+
+.about{
+    color: aliceblue;
+    text-align: center;
+    border:5px dotted;
+    border-color: rgb(207, 68, 207);
+    background:url(purple.jpg);
+    background-repeat: repeat;
+    
+}
+
+
+.img{
+    width: 250px;
+    height: 250px; 
+}
+
+
+    
+nav{
+    width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        width:100%;
+        margin:0;
+        font-size:14px;
+    }
+    section{
+        width:100%;
+        box-sizing:border-box;
+    }
+}
+
+/*project page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact*/
+.form{
+    text-align: center;
+    border:5px dotted;
+    border-color:darkmagenta;
+}
+
+.contact{
+    text-align: center;
+    
+}
+
+.text{
+    text-shadow:4px 4px 4px purple;
+}
+
+
+/*skills page */
+.table {
+    background-color: mediumpurple;
+    padding: 10px;
+}
+
+.items {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: violet;
+}
+
+.items th,
+.items td {
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list {
+    padding: 30px;
+    margin: 20px;
+    background-color: plum;
+    border-radius: 15px;
+}
+
+.list h2 {
+    text-align: center;
+}
+
+.list li {
+    padding: 8px;
+    font-size: 18px;
+}
+
+
+/*blog page*/
+.blog{
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.images {
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
