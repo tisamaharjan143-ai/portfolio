@@ -2,41 +2,49 @@
 <html>
     <head>
         <title> CONTACT </title>
-        <link rel="sylesheet" href="assignment.css">
+        <link rel="stylesheet" href="assignment.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
 
         <div class="contact">
-            <h2> CONTACT ME </h2>
+            <h2 class="text"> CONTACT ME </h2>
             <h3> For any queries you can message me through the following:</h3>
-            <h4>Email:tisamaharjan143@gmail.com</h4>
-            <h4>Phone No.:9765218208
+            <h3>Email:tisamaharjan143@gmail.com</h3>
+            <h3>Phone No.:9765218208</h3>
         </div>
-        
-        <nav class="list">
-           
-            <li>
-                <ul>
-                    <a href="index.html"> HOME </a>
-                </ul>
-                <ul>
-                    <a href="project.html"> PROJECT </a>
-                </ul>
-                <ul>
-                    <a href="contact.html"> CONTACT </a>
-                </ul>
-                <ul>
-                    <a href="skills.html"> SKILLS </a>
-                </ul>
-                <ul>
-                    <a href="blog.html"> BLOG </a>
-                </ul>
-                <ul>
-                    <a href="sitereport.html"> SITE REPORT </a>
-                </ul>
-            </li>
 
+        <form class="form">
+            <h3>FORM</h3><br>
+            First Name:<br>
+            <input type="text"  name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br>
+            <input type="text" name="email"><br><br>
+            Contact Number:<br>
+            <input type="number" name="number"><br><br>
+            <input type="submit" value="Submit"><br><br>
+            <input type="reset"><br><br>
+        </form>
+
+
+
+
+        
+        
+        <nav>
+            <h2>MENU</h2>
+            <a class="a" href="index.html"> HOME </a>   
+            <a class="a" href="project.html"> PROJECT </a>  
+            <a class="a" href="contact.html"> CONTACT </a>   
+            <a class="a" href="skills.html"> SKILLS </a>  
+            <a class="a" href="blog.html"> BLOG </a>
+            <a class="a" href="sitereport.html"> SITE REPORT </a>
         </nav>
     </body>
 </html>
